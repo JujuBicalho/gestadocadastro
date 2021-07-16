@@ -1,12 +1,10 @@
-const form = document.getElementById("form")
-form.addEventListener("submit", (e) => {
-e.preventDefault();
-let email = document.getElementById('email').value;    
-let data ={
-    email
+function cadastrar () {
+    let email = document.getElementById('email').value;
+    let data ={
+        email
+    }
+    let convertData = JSON.stringify(data);
+    localStorage.setItem("Email", convertData);
+    window.alert('E-mail cadastrado com sucesso! Fique ligado para não perder nada.');
 }
 
-let convertData = JSON.stringify(data);
-
-localStorage.setItem("lead", convertData)
-});

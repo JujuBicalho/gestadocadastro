@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700|Lato:400,700);
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 body {
     overflow-x: hidden;
@@ -63,6 +63,7 @@ header {
     align-items: center; 
     font-size: 1.9rem;
     width: 100%;
+        
     }
 }
 
@@ -70,7 +71,8 @@ header {
     .oqueesperar-item {        
         display: inline-flex;   
         flex-wrap: wrap;    
-        padding-left: 1rem;    
+        padding-left: 3rem;  
+        
     }
 }
 
