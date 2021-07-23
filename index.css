@@ -1,0 +1,45 @@
+body {
+    margin:10px;
+    padding:10px;
+    background-color: #56bfd5;
+    color:rgb(3, 3, 3);
+    font-size: 1.5rem;
+    text-align: center;  
+    width: 100%;  
+}
+
+.curve{    
+    margin:-30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: -60px;
+    color:#fff;
+}
+
+.btn {
+    display: inline-flex;
+    background-color: rgb(72, 72, 252);    
+    padding:32px;    
+    margin-top:50px;
+    margin-left: 10px;    
+    border-radius: 40px;
+    box-shadow: 1px 8px 45px -2px rgba(30, 30, 60, 0.54);
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn a:hover{
+    color: brown;
+}
+
+footer {
+    margin-top:150px;
+    font-size: 1rem;
+}
